@@ -22,11 +22,11 @@ ___
 **Manuscripts in Preparation**
 1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events*.
 2. Djegou, E., & Adekpedjou, A. (2025). *Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates*.  
-3. Djegou, E. (2025). *Deep Learning Methods in Survival Analysis for Recurrent Events: A Review*.  
+3. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.  
 
 **Current Research**
-1. Djegou, E., & Adekpedjou, A. *Modeling Recurrent Events with Deep Neural Networks in Accelerated Failure Time Models Using Gehan Loss*.    
-2. Boamah, E., Kafle, A., & Djegou, E. *Extending Hybrid Neural Networks for Predictive Modeling of Incurred but Not Reported Claims Reserves*.  
+1. Djegou, E., & Adekpedjou, A. *Modeling Recurrent Events with Deep Neural Networks in Accelerated Failure Time Models*.    
+2. Boamah, E., Kafle, A., & Djegou, E. *Neural Network-Based Prediction of Incurred but Not Reported Claims*.  
 
 
 ## 📂 Projects Description
@@ -68,7 +68,7 @@ Recurrent event data extend traditional survival analysis beyond the first event
 ---
 
 
-### ☞ Modeling Recurrent Events with DNNs in Accelerated Failure Time Models Using Gehan Loss
+### ☞ Modeling Recurrent Events with DNNs in Accelerated Failure Time Models
 
 Recurrent event data commonly arise in biomedical and reliability studies, with multiple failures per subject.
 
@@ -81,7 +81,7 @@ Recurrent event data commonly arise in biomedical and reliability studies, with 
 
 ---
 
-### ☞ Extending Hybrid Neural Networks for Predictive Modeling of Incurred but Not Reported Claims Reserves  
+### ☞ Neural Network-Based Prediction of Incurred but Not Reported Claims 
 
 Claims reserving in insurance requires accurate prediction of both Reported But Not Settled (RBNS) and Incurred But Not Reported (IBNR) claims. While recent hybrid neural network approaches have advanced RBNS modeling, IBNR claims pose unique challenges due to the absence of detailed claim-level features and the presence of large-loss risks.  
 
