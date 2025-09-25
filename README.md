@@ -42,7 +42,7 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 ---
 
-## ☞ RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks
+### ☞ RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks
 
 Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
 
@@ -72,7 +72,7 @@ Recurrent event data extend survival analysis beyond the first event, capturing 
 
 ---
 
-### ☞ 
+### ☞ Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates
 
 Traditional virtual age models assume covariates affect only baseline hazard, overlooking their influence on the **virtual age** that reflects post-intervention condition. This ongoing project extends the framework to capture more realistic dynamics.  
 
