@@ -21,7 +21,7 @@ ___
 
 **Manuscripts in Preparation**
 1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2025). *Modeling Recurrent Events with Deep Neural Networks in Accelerated Failure Time Models*.
+2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks*.
 
 **Current Research**
 1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.
@@ -42,7 +42,7 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 ---
 
-## ☞ Modeling Recurrent Events with RNN-AFT
+## ☞ RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks
 
 Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
 
