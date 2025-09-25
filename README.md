@@ -72,7 +72,7 @@ Recurrent event data extend survival analysis beyond the first event, capturing 
 
 ---
 
-### ☞ Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates
+### ☞ 
 
 Traditional virtual age models assume covariates affect only baseline hazard, overlooking their influence on the **virtual age** that reflects post-intervention condition. This ongoing project extends the framework to capture more realistic dynamics.  
 
