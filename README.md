@@ -48,7 +48,7 @@ Recurrent event data frequently arise in biomedical and reliability studies, whe
 
 - Introduce **RNN-AGT**, a recurrent neural network framework based on the **Gated Recurrent Unit (GRU)** to model recurrent events within the Accelerated Failure Time paradigm.  
 - Capture complex, nonlinear relationships between covariates and event times across multiple occurrences.  
-- Address censoring through a comparative study of **four loss functions**:  
+- Address censoring through a comparative study of **five loss functions**:  
   - Naive loss  
   - Imputation-based loss conditioning on covariates (inspired by Buckley–James)  
   - Inverse Probability of Censoring Weighting (IPCW) loss  
