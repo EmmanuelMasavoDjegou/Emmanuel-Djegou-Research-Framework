@@ -20,12 +20,13 @@ ___
 ## 📝 Research Publications
 
 **Manuscripts in Preparation**
-1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Neural Networks for Recurrent Gap Time Data in Accelerated Failure Time Models*.
+1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Accelerated Life Models for Recurrent Events*.
+2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Recurrent Neural Networks for Censored Gap Time Prediction*
+*.
 
 **Current Research**
 1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.
-2. Djegou, E. (2025). *Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates*.        
+2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
 
 
 
