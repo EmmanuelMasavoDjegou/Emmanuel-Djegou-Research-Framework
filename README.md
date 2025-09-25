@@ -24,7 +24,7 @@ ___
 2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Recurrent Neural Networks for Censored Gap Time Prediction*.
 
 **Current Research**
-1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.
+1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Events*.
 2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
 
 
@@ -59,7 +59,7 @@ Recurrent event data frequently arise in biomedical and reliability studies, whe
 ---
 
 
-### ☞ Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data
+### ☞ Deep Survival Learning: A Modern Statistical Framework for Recurrent Events
 
 Recurrent event data extend survival analysis beyond the first event, capturing repeated occurrences in healthcare, engineering, and social sciences. This ongoing project explores how **deep learning methods** can advance recurrent event survival modeling.  
 
