@@ -46,7 +46,7 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
 
-- Introduce **RNN-AFT**, a recurrent neural network framework based on the **Gated Recurrent Unit (GRU)** to model recurrent events within the Accelerated Failure Time paradigm.  
+- Introduce **RNN-AGT**, a recurrent neural network framework based on the **Gated Recurrent Unit (GRU)** to model recurrent events within the Accelerated Failure Time paradigm.  
 - Capture complex, nonlinear relationships between covariates and event times across multiple occurrences.  
 - Address censoring through a comparative study of **four loss functions**:  
   - Naive loss  
@@ -54,7 +54,7 @@ Recurrent event data frequently arise in biomedical and reliability studies, whe
   - Inverse Probability of Censoring Weighting (IPCW) loss  
   - Gehan-type rank loss  
   - Unbiased transformation of censored survival times  
-- Validate the approach through extensive simulations and real-world applications, showing that **RNN-AFT outperforms traditional AFT and Cox models** in both predictive accuracy and interpretability.  
+- Validate the approach through extensive simulations and real-world applications, showing that **RNN-AFT outperforms traditional accelerated life and Cox models** in both predictive accuracy and interpretability.  
 
 ---
 
