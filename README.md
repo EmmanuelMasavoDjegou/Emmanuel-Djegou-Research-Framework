@@ -21,7 +21,7 @@ ___
 
 **Manuscripts in Preparation**
 1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks*.
+2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AFT: Neural Networks for Recurrent Gap Time Data in Accelerated Failure Time Models*.
 
 **Current Research**
 1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.
@@ -31,7 +31,7 @@ ___
 
 ## 📂 Projects Description
 
-### ☞ Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events
+### ☞ Efficient Estimation in Accelerated Life Models for Recurrent Events
 
 Accelerated life models, such as the Accelerated Failure Time (AFT) model, relate covariates to log event times under right-censoring and extend naturally to recurrent events via the Accelerated Gap Time (AGT) model. While they provide intuitive interpretations and serve as meaningful alternatives to the Cox model, they often overlook the effects of interventions occurring between events—common in fields like reliability engineering and biomedical research.
 
@@ -42,7 +42,7 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 ---
 
-### ☞ RNN-AFT: Predicting Recurrent Events in Accelerated Failure Time Models with Neural Networks
+### ☞ RNN-AFT: Recurrent Neural Networks for Censored Gap Time Prediction
 
 Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
 
@@ -72,7 +72,7 @@ Recurrent event data extend survival analysis beyond the first event, capturing 
 
 ---
 
-### ☞ Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates
+### ☞ A General Class of Virtual Age Models with Time-Dependent Covariates
 
 Traditional virtual age models assume covariates affect only baseline hazard, overlooking their influence on the **virtual age** that reflects post-intervention condition. This ongoing project extends the framework to capture more realistic dynamics.  
 
