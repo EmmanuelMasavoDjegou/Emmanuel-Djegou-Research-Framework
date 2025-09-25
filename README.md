@@ -21,12 +21,12 @@ ___
 
 **Manuscripts in Preparation**
 1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Semiparametric Accelerated Life Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2025). *Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates*.  
-3. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.  
+2. Djegou, E., & Adekpedjou, A. (2025). *Modeling Recurrent Events with Deep Neural Networks in Accelerated Failure Time Models*.
 
 **Current Research**
-1. Djegou, E., & Adekpedjou, A. *Modeling Recurrent Events with Deep Neural Networks in Accelerated Failure Time Models*.    
-2. Boamah, E., Kafle, A., & Djegou, E. *Neural Network-Based Prediction of Incurred but Not Reported Claims*.  
+1. Djegou, E. (2025). *Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data*.
+2. Djegou, E. (2025). *Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates*.        
+
 
 
 ## 📂 Projects Description
@@ -42,53 +42,46 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 ---
 
+## ☞ Modeling Recurrent Events with RNN-AFT
+
+Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
+
+- Introduce **RNN-AFT**, a recurrent neural network framework based on the **Gated Recurrent Unit (GRU)** to model recurrent events within the Accelerated Failure Time paradigm.  
+- Capture complex, nonlinear relationships between covariates and event times across multiple occurrences.  
+- Address censoring through a comparative study of **four loss functions**:  
+  - Naive loss  
+  - Imputation-based loss conditioning on covariates (inspired by Buckley–James)  
+  - Inverse Probability of Censoring Weighting (IPCW) loss  
+  - Gehan-type rank loss  
+  - Unbiased transformation of censored survival times  
+- Validate the approach through extensive simulations and real-world applications, showing that **RNN-AFT outperforms traditional AFT and Cox models** in both predictive accuracy and interpretability.  
+
+---
+
+
+### ☞ Deep Survival Learning: A Modern Statistical Framework for Recurrent Event Data
+
+Recurrent event data extend survival analysis beyond the first event, capturing repeated occurrences in healthcare, engineering, and social sciences. This ongoing project explores how **deep learning methods** can advance recurrent event survival modeling.  
+
+- Develop a **theoretical framework** for recurrent event analysis with deep learning  
+- Investigate **state-of-the-art deep survival approaches**: RNNs, LSTMs, GRUs, attention-based models, deep hazard/intensity estimators  
+- Examine challenges such as **censoring**, **time-varying covariates**, and **irregular event sequences**
+- Explore **applications** in hospital readmissions, chronic disease progression, system reliability and actuarial science.
+- Aim to show improvements in **predictive accuracy** and **interpretability** over traditional recurrent event models  
+
+
+---
+
 ### ☞ Efficient Semiparametric Methods for Generalized Virtual Age Models with Time-Varying Covariates
 
-Traditional virtual age models assume covariates influence only baseline hazard of initial failure times, ignoring their effect on the virtual age reflecting post-intervention condition.
+Traditional virtual age models assume covariates affect only baseline hazard, overlooking their influence on the **virtual age** that reflects post-intervention condition. This ongoing project extends the framework to capture more realistic dynamics.  
 
-- Introduce a **general class of virtual age models** where **time-varying covariates directly influence virtual age**.
-- Offers flexible modeling of recurrent events (e.g., post-surgical readmissions), accounting for censoring and imperfect interventions.
-- Inference based on **semiparametric efficiency theory** via reparameterization of baseline intensity and monotone estimating equations.
-- Estimators are **consistent and asymptotically normal**.
-- Proposed a **novel failure time simulation algorithm**.
-- Demonstrated improved accuracy on biomedical datasets.
-
----
-
-### ☞ Deep Learning Methods in Survival Analysis for Recurrent Events: A Review
-
-Recurrent event data extend traditional survival analysis beyond the first event, capturing repeated occurrences across healthcare, engineering, and social sciences. This review focuses on **deep learning methods** specifically designed for recurrent event survival analysis.
-
-- Provide a **theoretical foundation** for modeling recurrent events using deep learning techniques.  
-- Survey **state-of-the-art deep survival methods**, including RNNs, LSTMs, attention mechanisms, and deep hazard/intensity estimators.  
-- Discuss key challenges such as **censoring**, **time-varying covariates**, and **irregular event sequences** in recurrent event data.  
-- Highlight **practical applications** in hospital readmissions, chronic disease progression, system reliability, and behavioral event modeling.  
-- Demonstrate how deep survival learning improves **predictive performance** and **interpretability** compared to traditional recurrent event models.
-
----
-
-
-### ☞ Modeling Recurrent Events with DNNs in Accelerated Failure Time Models
-
-Recurrent event data commonly arise in biomedical and reliability studies, with multiple failures per subject.
-
-- Extend **DeepR-AFT** framework to recurrent events via **DeepR-AGT-Recur**, a DNN model with **Gehan-type rank loss**.
-- Capture nonlinear relationships between covariates and event times over multiple occurrences.
-- Include a **subject-level frailty term** for within-subject dependence.
-- Employ **stratified subsampling** for stable learning amid censored and irregularly spaced events.
-- Perform simulation studies and real-world data applications to show that DeepR-AGT-Recur outperforms traditional AFT and Cox models in accuracy and interpretability.
-
-
----
-
-### ☞ Neural Network-Based Prediction of Incurred but Not Reported Claims 
-
-Claims reserving in insurance requires accurate prediction of both Reported But Not Settled (RBNS) and Incurred But Not Reported (IBNR) claims. While recent hybrid neural network approaches have advanced RBNS modeling, IBNR claims pose unique challenges due to the absence of detailed claim-level features and the presence of large-loss risks.  
-
-- Extended **hybrid neural network models** to explicitly handle IBNR reserves.  
-- Investigated the use of **predictive indicators** and **ensemble techniques** to improve accuracy.  
-- Proposed a **dual-framework** separating RBNS and IBNR modeling for improved reserve allocation.  
-- Results show potential for **enhanced prediction** and **nuanced treatment of large-loss claims** in actuarial practice.  
+- Formulate a **generalized class of virtual age models** where **time-varying covariates impact virtual age directly**  
+- Provide flexibility for modeling recurrent events under censoring and imperfect interventions  
+- Base inference on **semiparametric efficiency theory** with reparameterized baseline intensity and monotone estimating equations  
+- Establish estimators that are **consistent and asymptotically normal**  
+- Develop a **simulation algorithm** for generating recurrent failure times  
+- Conduct empirical studies showing gains in **accuracy and applicability** on biomedical datasets  
 
 ---
 
