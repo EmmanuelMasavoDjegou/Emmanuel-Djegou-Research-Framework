@@ -26,30 +26,34 @@ ___
 
 ## 📂 Projects Description
 
-### ☞ Efficient Estimation in Accelerated Gap-Time Models for Recurrent Events
+### ☞ Efficient Estimation in Semiparametric Accelerated Gap-Time Models for Recurrent Events
 
-Accelerated life models, such as the Accelerated Failure Time (AFT) model, relate covariates to log event times under right-censoring and extend naturally to recurrent events via the Accelerated Gap Time (AGT) model. While they provide intuitive interpretations and serve as meaningful alternatives to the Cox model, they often overlook the effects of interventions occurring between events—common in fields like reliability engineering and biomedical research.
+The **Accelerated Failure Time (AFT)** model relates covariates to log-transformed event times under right censoring and extends naturally to recurrent events through the **Accelerated Gap-Time (AGT)** formulation, providing a meaningful alternative to the Cox model. In many applications, such as reliability engineering and biomedical research, interventions occurring between successive events may alter the timing of future events, motivating models that explicitly account for these effects.
 
-- Proposed a broader class of **semiparametric accelerated life models** incorporating an **effective age process** to capture intervention effects.
-- Developed a **sample-based weighted efficient score function** using parametric submodels to address infinite-dimensional baseline hazards and non-monotone score functions.
-- Estimators are **consistent and asymptotically normal**.
-- Validated via simulations and application to real biomedical data.
-
+- Proposed a **broad class of semiparametric accelerated gap-time models** for recurrent event data incorporating an **effective age process**, allowing diverse intervention mechanisms to be represented within a unified framework.
+- Developed a **sample-based weighted efficient score function** using **parametric submodels** to address challenges arising from **infinite-dimensional baseline hazards** and **non-monotone score functions**.
+- Established that the resulting estimators are **consistent and asymptotically normal**.
+- Demonstrated the method through **simulation studies** and an **application to real biomedical data**.
+  
 ---
 
-### ☞ RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss
+### RNN-AGT: Recurrent Neural Network Accelerated Gap Time Model
 
-Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
+Recurrent event data arise in many fields such as medicine, reliability engineering, insurance, and economics. Classical **Accelerated Failure Time (AFT)** and **Accelerated Gap Time (AGT)** models provide interpretable alternatives to Cox models by modeling covariate effects directly on the event time scale. However, these models typically rely on linear predictors and cannot capture complex nonlinear relationships or temporal dependence between repeated events.
 
-- Introduce **RNN-AGT**, a recurrent neural network framework based on the **Gated Recurrent Unit (GRU)** to model recurrent events within the Accelerated Failure Time paradigm.  
-- Capture complex, nonlinear relationships between covariates and event times across multiple occurrences.  
-- Address censoring through a comparative study of **five loss functions**:  
-  - Naive loss  
-  - Imputation-based loss conditioning on covariates (inspired by Buckley–James)  
-  - Inverse Probability of Censoring Weighting (IPCW) loss  
-  - Gehan-type rank loss  
-  - Unbiased transformation of censored survival times  
-- Validate the approach through extensive simulations and real-world applications, showing that **RNN-AFT outperforms traditional accelerated life and Cox models** in both predictive accuracy and interpretability.  
+This project introduces **RNN-AGT**, a neural network–based extension of AGT models for predicting recurrent gap times.
+
+- Uses **Gated Recurrent Units (GRUs)** to model temporal dependence across repeated events.
+- Captures **nonlinear covariate effects and interactions** beyond traditional AFT models.
+- Handles **right-censored gap times** using a **Gehan-type rank loss**.
+- Implements a **subsampling strategy** to reduce the computational cost of pairwise comparisons while maintaining unbiased gradient estimates.
+
+Simulation studies demonstrate strong predictive performance using:
+
+- **Adjusted Mean Squared Error (AMSE)**
+- **Inverse Probability of Censoring Weighted (IPCW) Concordance Index**
+
+The method is validated on **real biomedical recurrent-event datasets** and benchmarked against state-of-the-art Cox-based models.
 
 ---
 
