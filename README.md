@@ -18,7 +18,7 @@ ___
 
 **Manuscripts in Preparation**
 1. Djegou, E., & Adekpedjou, A. (2026). *Efficient Estimation in Accelerated Gap-Time Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2026). *RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss*.
+2. Djegou, E., & Adekpedjou, A. (2026). *RNN-AGT: A Recurrent Neural Networks-Based Accelerated Gap-Time Model Using Gehan-Type Rank Loss*.
 
 **Current Research**
 2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
@@ -37,7 +37,7 @@ The **Accelerated Failure Time (AFT)** model relates covariates to log-transform
   
 ---
 
-### RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss
+### RNN-AGT: A Recurrent Neural Networks-Based Accelerated Gap-Time Model Using Gehan-Type Rank Loss
 
 Recurrent event data arise in many fields such as medicine, reliability engineering, insurance, and economics. Classical **Accelerated Failure Time (AFT)** and **Accelerated Gap Time (AGT)** models provide interpretable alternatives to Cox models by modeling covariate effects directly on the event time scale. However, these models typically rely on linear predictors and cannot capture complex nonlinear relationships or temporal dependence between repeated events.
 
