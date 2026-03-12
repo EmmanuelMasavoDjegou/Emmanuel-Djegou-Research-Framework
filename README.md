@@ -4,10 +4,11 @@ I am a **Ph.D. candidate in Statistics** at **Missouri University of Science and
 
 ##  🎯 Interests
 
-- Neural Networks
-- Recurrent Events
-- Accelerated Life Models
-
+- Deep Learning 
+- Survival Analysis 
+- Joint Modeling 
+- Mixed-Effects Models
+- Meta-Analysis
 
 ___
 
@@ -27,10 +28,9 @@ ___
 2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
 
 
-
 ## 📂 Projects Description
 
-### ☞ Efficient Estimation in Accelerated Life Models for Recurrent Events
+### ☞ Efficient Estimation in Accelerated Gap-Time Models for Recurrent Events
 
 Accelerated life models, such as the Accelerated Failure Time (AFT) model, relate covariates to log event times under right-censoring and extend naturally to recurrent events via the Accelerated Gap Time (AGT) model. While they provide intuitive interpretations and serve as meaningful alternatives to the Cox model, they often overlook the effects of interventions occurring between events—common in fields like reliability engineering and biomedical research.
 
@@ -41,7 +41,7 @@ Accelerated life models, such as the Accelerated Failure Time (AFT) model, relat
 
 ---
 
-### ☞ RNN-AFT: Recurrent Neural Networks for Censored Gap Time Prediction
+### ☞ RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss
 
 Recurrent event data frequently arise in biomedical and reliability studies, where subjects may experience multiple failures over time.  
 
@@ -54,20 +54,6 @@ Recurrent event data frequently arise in biomedical and reliability studies, whe
   - Gehan-type rank loss  
   - Unbiased transformation of censored survival times  
 - Validate the approach through extensive simulations and real-world applications, showing that **RNN-AFT outperforms traditional accelerated life and Cox models** in both predictive accuracy and interpretability.  
-
----
-
-
-### ☞ Deep Survival Learning: A Modern Statistical Framework for Recurrent Events
-
-Recurrent event data extend survival analysis beyond the first event, capturing repeated occurrences in healthcare, engineering, and social sciences. This ongoing project explores how **deep learning methods** can advance recurrent event survival modeling.  
-
-- Develop a **theoretical framework** for recurrent event analysis with deep learning  
-- Investigate **state-of-the-art deep survival approaches**: RNNs, LSTMs, GRUs, attention-based models, deep hazard/intensity estimators  
-- Examine challenges such as **censoring**, **time-varying covariates**, and **irregular event sequences**
-- Explore **applications** in hospital readmissions, chronic disease progression, system reliability and actuarial science.
-- Aim to show improvements in **predictive accuracy** and **interpretability** over traditional recurrent event models  
-
 
 ---
 
