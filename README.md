@@ -37,7 +37,7 @@ The **Accelerated Failure Time (AFT)** model relates covariates to log-transform
   
 ---
 
-### RNN-AGT: Recurrent Neural Network Accelerated Gap Time Model
+### RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss
 
 Recurrent event data arise in many fields such as medicine, reliability engineering, insurance, and economics. Classical **Accelerated Failure Time (AFT)** and **Accelerated Gap Time (AGT)** models provide interpretable alternatives to Cox models by modeling covariate effects directly on the event time scale. However, these models typically rely on linear predictors and cannot capture complex nonlinear relationships or temporal dependence between repeated events.
 
