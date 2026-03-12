@@ -21,7 +21,7 @@ ___
 2. Djegou, E., & Adekpedjou, A. (2026). *RNN-AGT: A Recurrent Neural Networks-Based Accelerated Gap-Time Model Using Gehan-Type Rank Loss*.
 
 **Current Research**
-2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
+1. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
 
 
 ## 📂 Projects Description
