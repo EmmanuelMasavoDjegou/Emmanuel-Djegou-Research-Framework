@@ -17,8 +17,8 @@ ___
 ## 📝 Research Publications
 
 **Manuscripts in Preparation**
-1. Djegou, E., & Adekpedjou, A. (2025). *Efficient Estimation in Accelerated Gap-Time Models for Recurrent Events*.
-2. Djegou, E., & Adekpedjou, A. (2025). *RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss*.
+1. Djegou, E., & Adekpedjou, A. (2026). *Efficient Estimation in Accelerated Gap-Time Models for Recurrent Events*.
+2. Djegou, E., & Adekpedjou, A. (2026). *RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss*.
 
 **Current Research**
 2. Djegou, E. (2025). *A General Class of Virtual Age Models with Time-Dependent Covariates*.        
