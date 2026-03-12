@@ -4,11 +4,7 @@ I am a **Ph.D. candidate in Statistics** at **Missouri University of Science and
 
 ##  🎯 Interests
 
-- Deep Learning 
-- Survival Analysis 
-- Joint Modeling 
-- Mixed-Effects Models
-- Meta-Analysis
+Deep Learning; Survival Analysis; Joint Modeling; Mixed-Effects Models & Meta-Analysis
 
 ___
 
