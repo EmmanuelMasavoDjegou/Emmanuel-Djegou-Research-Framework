@@ -134,11 +134,11 @@ This research develops a **hierarchical penalized survival modeling framework** 
 ## 🔗 How the Topics Connect
 
 ```
-Topic 1 (Effective Age / AFT Models)  ──┐
-                                          ├──►  Unified goal: better time-to-event
-Topic 2 (Deep Learning + Survival)    ──┤        modeling for engineering,
-                                          │        healthcare & insurance
-Topic 3 (High-Dim Variable Selection) ──┘
+Topic 1 (Effective Age + AFT Models)  ──────┐
+                                            ├──────────────────►  Unified goal: better time-to-event
+Topic 2 (Neural Networks + AFT Models)    ──┤                         modeling for engineering,
+                                            │                            healthcare & insurance
+Topic 3 (High-Dim Variable Selection + Cox Models + Cross-Study Heterogeneity) ──┘
 ```
 
 All three research lines push survival analysis beyond classical hazard-based assumptions — toward models that are more **flexible** (Topics 1 & 2), more **interpretable** (Topic 2), and more **robust across heterogeneous populations** (Topic 3).
