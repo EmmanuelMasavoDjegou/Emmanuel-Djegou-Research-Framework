@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🧠 Research Framework
-### Statistical & Machine Learning Approaches to Survival and Recurrent Event Modeling
+### Statistical & Modern Machine Learning Approaches to Survival Data Modeling
 
 ![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Recurrent%20Events-0f3460?style=flat-square)
