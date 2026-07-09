@@ -25,7 +25,7 @@
 
 ---
 
-## 🔧 Topic 1 — A Semiparametric Effective Age Framework for Recurrent Event Modeling
+## 🔧 A Semiparametric Effective Age Framework for Recurrent Event Modeling
 
 <img src="banner1.svg" alt="Recurrent Event Modeling Banner" width="100%">
 
@@ -60,7 +60,7 @@ This research builds a **semiparametric effective age framework grounded in acce
 
 ---
 
-## 🤖 Topic 2 — Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
+## 🤖 Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
 
 <img src="banner2.svg" alt="Deep Learning and Survival Analysis Banner" width="100%">
 
@@ -95,7 +95,7 @@ This research develops frameworks that **integrate deep learning with survival a
 
 ---
 
-## 🧬 Topic 3 — Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
+## 🧬 Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
 
 <img src="banner3.svg" alt="Genomics and Biomarker Discovery Banner" width="100%">
 
