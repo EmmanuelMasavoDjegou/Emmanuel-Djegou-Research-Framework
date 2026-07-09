@@ -1,6 +1,8 @@
 # 🧠 Research Framework
 
-## Research Topic 1: A Semiparametric Effective Age Framework for Recurrent Event Modeling
+## Research Topic 1
+
+A Semiparametric Effective Age Framework for Recurrent Event Modeling
 
 ### Problem Statement
 
@@ -10,7 +12,9 @@ A key challenge across reliability engineering, biomedical research, and insuran
 
 The inability to accurately characterize these dynamics can lead to significant practical consequences, including inefficient maintenance strategies, increased operational costs, limited treatment personalization, and inaccurate risk assessment. This research develops a **semiparametric effective age framework based on accelerated gap-time models** to directly model how covariates and interventions influence the acceleration or delay of recurrent event times. The proposed framework aims to improve prediction, reliability assessment, and decision-making in high-impact applications across engineering, healthcare, and insurance.
 
-## Research Topic 2: Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
+## Research Topic 2
+
+Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
 
 ### Problem Statement
 
@@ -20,7 +24,9 @@ Deep learning approaches offer powerful tools for capturing nonlinear relationsh
 
 This research explores the integration of **deep learning and survival analysis** to develop flexible and interpretable frameworks for time-to-event and recurrent event prediction. The goal is to identify effective approaches that balance **predictive performance, model transparency, and statistical reliability**, enabling trustworthy decision-making in high-impact domains including healthcare, reliability engineering, and insurance.
 
-## Research Topic 3: Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
+## Research Topic 3
+
+Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
 
 ### Problem Statement
 
