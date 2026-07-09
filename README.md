@@ -95,7 +95,7 @@ This research develops frameworks that **integrate deep learning with survival a
 
 ---
 
-## 🧬 Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
+## 🧬 Variable Selection for High-Dimensional Survival Data Under Cross-Study Heterogeneity
 
 <img src="banner3.svg" alt="Genomics and Biomarker Discovery Banner" width="100%">
 
