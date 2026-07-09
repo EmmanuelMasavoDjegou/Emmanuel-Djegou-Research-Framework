@@ -1,37 +1,152 @@
+<div align="center">
+
 # 🧠 Research Framework
+### Statistical & Machine Learning Approaches to Survival and Recurrent Event Modeling
 
-## Research Topic 1
+![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Recurrent%20Events-0f3460?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Deep%20Learning-e94560?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Genomics-9d4edd?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
-**A Semiparametric Effective Age Framework for Recurrent Event Modeling**
+*Three complementary research directions spanning reliability engineering, biomedicine, and insurance — unified by the goal of modeling time-to-event data more flexibly, interpretably, and reliably.*
 
-### Problem Statement
+</div>
 
-Many real-world systems involve **recurrent events**, where the same unit experiences multiple events over time. Examples include repeated failures in engineering systems, disease recurrence in biomedical research, and repeated claims in insurance. In these settings, interventions such as maintenance actions, medical treatments, or claim-related processes can modify the timing of future events. Since these interventions are often imperfect, the future event process depends on the system's **effective age**, which captures the cumulative impact of previous events and interventions. A key challenge across reliability engineering, biomedical research, and insurance is the lack of flexible statistical models that can simultaneously capture the effects of **covariates** and **interventions** on the **timing of recurrent events**. Existing approaches often rely on **relative risk models**, such as the Cox proportional hazards model, which focus on how predictors affect the risk of an event rather than how they accelerate or delay the occurrence of future events. Although effective age models incorporate intervention effects, many existing formulations remain hazard-based and do not provide a unified framework for modeling both covariate and intervention effects on event timing. The inability to accurately characterize these dynamics can lead to inefficient maintenance strategies, increased operational costs, limited treatment personalization, and inaccurate risk assessment. This research develops a **semiparametric effective age framework based on accelerated gap-time models** to directly model how covariates and interventions influence the acceleration or delay of recurrent event times, with the goal of improving prediction, reliability assessment, and decision-making in high-impact applications across engineering, healthcare, and insurance.
+---
 
-**Keywords:**  
-`Recurrent Event Analysis` · `Survival Analysis` · `Accelerated Failure Time Models` · `Accelerated Gap-Time Models` · `Effective Age Models` · `Repairable Systems` · `Reliability Engineering` · `Intervention Effects` · `Maintenance Optimization` · `Semiparametric Inference`
+## 📋 Table of Contents
 
+| # | Topic | Domain Focus |
+|---|-------|---------------|
+| 1 | [Semiparametric Effective Age Framework for Recurrent Event Modeling](#-topic-1--a-semiparametric-effective-age-framework-for-recurrent-event-modeling) | Reliability · Biomedicine · Insurance |
+| 2 | [Integrating Deep Learning and Survival Analysis](#-topic-2--integrating-deep-learning-and-survival-analysis-for-accurate-and-interpretable-event-prediction) | Healthcare · Engineering · Insurance |
+| 3 | [Variable Selection for High-Dimensional Survival Modeling](#-topic-3--variable-selection-for-high-dimensional-survival-modeling-under-cross-study-heterogeneity) | Genomics · Precision Medicine |
 
-## Research Topic 2
+---
 
-**Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction**
+## 🔧 Topic 1 — A Semiparametric Effective Age Framework for Recurrent Event Modeling
 
-### Problem Statement
+<img src="banner1.svg" alt="Recurrent Event Modeling Banner" width="100%">
 
-Survival analysis provides a powerful framework for modeling **time-to-event outcomes** in applications such as biomedical research, reliability engineering, and insurance. However, modern datasets are increasingly **high-dimensional, longitudinal, and complex**, creating challenges for traditional survival models that often rely on restrictive assumptions about covariate effects, functional relationships, and dependency structures. These limitations become particularly pronounced in recurrent event settings, where the history and sequence of previous events contain critical information about future outcomes. Deep learning approaches offer powerful capabilities for capturing nonlinear relationships, complex temporal patterns, and high-dimensional representations from large-scale data. However, many existing deep survival models operate as black-box approaches, improving predictive performance at the expense of interpretability and statistical understanding. Conversely, traditional survival models provide strong interpretability and theoretical guarantees but may struggle to achieve competitive predictive performance in complex real-world applications. This research explores the integration of **deep learning and survival analysis** to develop flexible and interpretable frameworks for single and recurrent event prediction. The objective is to establish a balance between **predictive accuracy, model transparency, and statistical reliability**, enabling trustworthy decision-making in high-impact domains including healthcare, reliability engineering, and insurance.
+### The Problem
 
-**Keywords:**  
-`Deep Learning` · `Survival Analysis` · `Deep Survival Models` · `Recurrent Event Prediction` · `Time-to-Event Modeling` · `Neural Networks` · `Representation Learning` · `Longitudinal Data` · `Explainable AI` · `Predictive Modeling`
+Systems that experience **recurrent events** — repeated failures in machinery, disease recurrence in patients, repeated insurance claims — are everywhere. Interventions like maintenance, treatment, or claims processing can reset or partially reset the clock on future events. This "clock" is the system's **effective age**, and capturing it well is surprisingly hard.
 
+> Most existing tools, like the Cox proportional hazards model, describe *how risky* an event is at a given moment — not *how much sooner or later* it will occur. Effective age models fill part of that gap but are still largely hazard-based, without a unified way to capture both covariate and intervention effects on timing directly.
 
-## Research Topic 3
+**Why it matters:** getting this wrong leads to costly maintenance schedules, less personalized treatment plans, and inaccurate risk pricing.
 
-**Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity**
+### The Approach
 
-### Problem Statement
+This research builds a **semiparametric effective age framework grounded in accelerated gap-time models**, directly modeling how covariates and interventions *accelerate or delay* recurrent event timing — rather than just how they shift risk.
 
-Large-scale biomedical studies increasingly rely on **individual-participant-data (IPD) meta-analysis** to integrate information from multiple cohorts and improve the understanding of time-to-event outcomes. This is particularly important in **genomics and precision medicine**, where high-dimensional molecular data, such as gene expression profiles, contain thousands of potential predictors for identifying prognostic biomarkers and understanding disease progression. However, analyzing these data presents significant challenges due to **between-study heterogeneity**, high-dimensional predictor spaces, and reliable variable selection under right-censoring. Existing penalized survival models often assume homogeneous covariate effects across studies or perform variable selection independently within each cohort, limiting their ability to capture population-specific differences while identifying consistently important biomarkers. In genomic applications, these limitations can result in unstable gene selection, reduced reproducibility of biomarker discovery, and poor generalizability across diverse patient populations. This research develops a **hierarchical penalized survival modeling framework** that jointly captures shared and study-specific covariate effects in high-dimensional IPD meta-analysis. By integrating structured variable selection and advanced penalization techniques, the proposed framework aims to identify robust genes and prognostic biomarkers while accounting for biological and clinical heterogeneity across cohorts. The ultimate goal is to improve the reliability, interpretability, and generalizability of survival models for applications in **genomic biomarker discovery, precision medicine, clinical risk prediction, and multi-cohort biomedical research**.
+<details>
+<summary><b>🏷️ Keywords</b></summary>
+<br>
 
-**Keywords:**  
-`IPD Meta-Analysis` · `Survival Analysis` · `High-Dimensional Survival Data` · `Penalized Regression` · `Variable Selection` · `Cox Proportional Hazards Model` · `Hierarchical Modeling` · `Nonconvex Penalties` · `Genomic Data Analysis` · `Biomarker Discovery` · `Precision Medicine`
+![Recurrent Event Analysis](https://img.shields.io/badge/-Recurrent%20Event%20Analysis-2c5364?style=flat-square)
+![Survival Analysis](https://img.shields.io/badge/-Survival%20Analysis-2c5364?style=flat-square)
+![AFT Models](https://img.shields.io/badge/-Accelerated%20Failure%20Time%20Models-2c5364?style=flat-square)
+![Gap-Time Models](https://img.shields.io/badge/-Accelerated%20Gap--Time%20Models-2c5364?style=flat-square)
+![Effective Age](https://img.shields.io/badge/-Effective%20Age%20Models-2c5364?style=flat-square)
+![Repairable Systems](https://img.shields.io/badge/-Repairable%20Systems-2c5364?style=flat-square)
+![Reliability Engineering](https://img.shields.io/badge/-Reliability%20Engineering-2c5364?style=flat-square)
+![Intervention Effects](https://img.shields.io/badge/-Intervention%20Effects-2c5364?style=flat-square)
+![Maintenance Optimization](https://img.shields.io/badge/-Maintenance%20Optimization-2c5364?style=flat-square)
+![Semiparametric Inference](https://img.shields.io/badge/-Semiparametric%20Inference-2c5364?style=flat-square)
 
+</details>
+
+---
+
+## 🤖 Topic 2 — Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
+
+<img src="banner2.svg" alt="Deep Learning and Survival Analysis Banner" width="100%">
+
+### The Problem
+
+Modern time-to-event datasets are **high-dimensional, longitudinal, and complex** — and traditional survival models often rely on restrictive assumptions that don't hold up, especially for recurrent events where the *history and sequence* of prior events matters.
+
+> Deep learning can capture nonlinear relationships and complex temporal patterns that classical models miss — but at a cost. Most deep survival models are **black boxes**: strong predictive performance, little statistical transparency. Classical models offer the opposite trade-off.
+
+**Why it matters:** in healthcare, engineering, and insurance, decision-makers need models they can both *trust* and *understand* — not just ones that score well.
+
+### The Approach
+
+This research develops frameworks that **integrate deep learning with survival analysis**, aiming for a balance of predictive accuracy, interpretability, and statistical reliability across single-event and recurrent-event settings.
+
+<details>
+<summary><b>🏷️ Keywords</b></summary>
+<br>
+
+![Deep Learning](https://img.shields.io/badge/-Deep%20Learning-0f3460?style=flat-square)
+![Survival Analysis](https://img.shields.io/badge/-Survival%20Analysis-0f3460?style=flat-square)
+![Deep Survival Models](https://img.shields.io/badge/-Deep%20Survival%20Models-0f3460?style=flat-square)
+![Recurrent Event Prediction](https://img.shields.io/badge/-Recurrent%20Event%20Prediction-0f3460?style=flat-square)
+![Time-to-Event Modeling](https://img.shields.io/badge/-Time--to--Event%20Modeling-0f3460?style=flat-square)
+![Neural Networks](https://img.shields.io/badge/-Neural%20Networks-0f3460?style=flat-square)
+![Representation Learning](https://img.shields.io/badge/-Representation%20Learning-0f3460?style=flat-square)
+![Longitudinal Data](https://img.shields.io/badge/-Longitudinal%20Data-0f3460?style=flat-square)
+![Explainable AI](https://img.shields.io/badge/-Explainable%20AI-0f3460?style=flat-square)
+![Predictive Modeling](https://img.shields.io/badge/-Predictive%20Modeling-0f3460?style=flat-square)
+
+</details>
+
+---
+
+## 🧬 Topic 3 — Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
+
+<img src="banner3.svg" alt="Genomics and Biomarker Discovery Banner" width="100%">
+
+### The Problem
+
+**Individual-participant-data (IPD) meta-analysis** lets researchers combine multiple cohorts to better understand time-to-event outcomes — crucial in genomics, where gene expression data offers thousands of candidate biomarkers.
+
+> The catch: cohorts differ. Existing penalized survival models often assume **homogeneous effects across studies**, or select variables independently within each one — missing the chance to capture population-specific differences while still finding biomarkers that hold up broadly.
+
+**Why it matters:** in genomic research, this leads to unstable gene selection, poor reproducibility, and biomarkers that don't generalize across patient populations.
+
+### The Approach
+
+This research develops a **hierarchical penalized survival modeling framework** that jointly captures shared and study-specific covariate effects in high-dimensional IPD meta-analysis — combining structured variable selection with advanced penalization to identify robust, generalizable biomarkers.
+
+<details>
+<summary><b>🏷️ Keywords</b></summary>
+<br>
+
+![IPD Meta-Analysis](https://img.shields.io/badge/-IPD%20Meta--Analysis-9d4edd?style=flat-square)
+![Survival Analysis](https://img.shields.io/badge/-Survival%20Analysis-9d4edd?style=flat-square)
+![High-Dimensional Data](https://img.shields.io/badge/-High--Dimensional%20Survival%20Data-9d4edd?style=flat-square)
+![Penalized Regression](https://img.shields.io/badge/-Penalized%20Regression-9d4edd?style=flat-square)
+![Variable Selection](https://img.shields.io/badge/-Variable%20Selection-9d4edd?style=flat-square)
+![Cox PH Model](https://img.shields.io/badge/-Cox%20Proportional%20Hazards%20Model-9d4edd?style=flat-square)
+![Hierarchical Modeling](https://img.shields.io/badge/-Hierarchical%20Modeling-9d4edd?style=flat-square)
+![Nonconvex Penalties](https://img.shields.io/badge/-Nonconvex%20Penalties-9d4edd?style=flat-square)
+![Genomic Data Analysis](https://img.shields.io/badge/-Genomic%20Data%20Analysis-9d4edd?style=flat-square)
+![Biomarker Discovery](https://img.shields.io/badge/-Biomarker%20Discovery-9d4edd?style=flat-square)
+![Precision Medicine](https://img.shields.io/badge/-Precision%20Medicine-9d4edd?style=flat-square)
+
+</details>
+
+---
+
+## 🔗 How the Topics Connect
+
+```
+Topic 1 (Effective Age / AFT Models)  ──┐
+                                          ├──►  Unified goal: better time-to-event
+Topic 2 (Deep Learning + Survival)    ──┤        modeling for engineering,
+                                          │        healthcare & insurance
+Topic 3 (High-Dim Variable Selection) ──┘
+```
+
+All three research lines push survival analysis beyond classical hazard-based assumptions — toward models that are more **flexible** (Topics 1 & 2), more **interpretable** (Topic 2), and more **robust across heterogeneous populations** (Topic 3).
+
+<div align="center">
+
+---
+
+*Prepared as a research framework overview — reach out for full proposals, methodology details, or collaboration inquiries.*
+
+</div>
