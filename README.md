@@ -2,7 +2,7 @@
 
 ## Research Topic 1
 
-A Semiparametric Effective Age Framework for Recurrent Event Modeling
+**A Semiparametric Effective Age Framework for Recurrent Event Modeling**
 
 ### Problem Statement
 
@@ -14,7 +14,7 @@ The inability to accurately characterize these dynamics can lead to significant 
 
 ## Research Topic 2
 
-Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
+**Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction**
 
 ### Problem Statement
 
@@ -26,7 +26,7 @@ This research explores the integration of **deep learning and survival analysis*
 
 ## Research Topic 3
 
-Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity
+**Variable Selection for High-Dimensional Survival Modeling Under Cross-Study Heterogeneity**
 
 ### Problem Statement
 
