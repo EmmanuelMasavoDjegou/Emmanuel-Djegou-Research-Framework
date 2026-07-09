@@ -60,7 +60,7 @@ This research builds a **semiparametric effective age framework grounded in acce
 
 ---
 
-## 🤖 Integrating Deep Learning and Survival Analysis for Accurate and Interpretable Event Prediction
+## 🤖 Integrating Deep Learning and Survival Analysis for Reliable Event Prediction
 
 <img src="banner2.svg" alt="Deep Learning and Survival Analysis Banner" width="100%">
 
