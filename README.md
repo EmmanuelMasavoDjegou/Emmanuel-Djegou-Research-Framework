@@ -135,7 +135,7 @@ This research develops a **hierarchical penalized survival modeling framework** 
 
 ```
 Topic 1 (Effective Age + AFT Models)    ──────────┐
-                                                  ├──────►  Unified goal: better time-to-event
+                                                  ├──────►  Unified goal: better survival data
 Topic 2 (Neural Networks + AFT Models)     ───────┤              modeling for engineering,
                                                   │               healthcare & insurance
 Topic 3 (High-Dim Survival Data + Cox Models)  ───┘
