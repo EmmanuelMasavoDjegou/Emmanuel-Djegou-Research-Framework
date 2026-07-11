@@ -17,11 +17,11 @@
 
 ## 📋 Table of Contents
 
-| # | Topic | Domain Focus |
-|---|-------|---------------|
-| 1 | [Semiparametric Effective Age Framework for Recurrent Event Modeling](#-a-semiparametric-effective-age-framework-for-recurrent-event-modeling) | Reliability · Biomedicine |
-| 2 | [Integrating Deep Learning and Survival Analysis](#-integrating-deep-learning-and-survival-analysis-for-reliable-event-prediction) | Healthcare · Engineering · Insurance |
-| 3 | [Variable Selection for High-Dimensional Survival Modeling](#-variable-selection-for-high-dimensional-survival-data-under-cross-study-heterogeneity) | Genomics · Precision Medicine|
+| # | Topic  |
+|---|-------|
+| 1 | [Semiparametric Effective Age Framework for Recurrent Event Modeling](#-a-semiparametric-effective-age-framework-for-recurrent-event-modeling) | 
+| 2 | [Integrating Deep Learning and Survival Analysis](#-integrating-deep-learning-and-survival-analysis-for-reliable-event-prediction) | 
+| 3 | [Variable Selection for High-Dimensional Survival Modeling](#-variable-selection-for-high-dimensional-survival-data-under-cross-study-heterogeneity) |
 
 ---
 
