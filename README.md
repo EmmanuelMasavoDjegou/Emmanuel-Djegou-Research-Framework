@@ -9,7 +9,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Genomics-9d4edd?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
-*Three complementary research directions spanning reliability engineering, biomedicine, and insurance — unified by the goal of modeling time-to-event data more flexibly, interpretably, and reliably.*
+*A unified research framework connecting semiparametric efficiency theory, deep survival models, high-dimensional variable selection and statistical validation for reliable survival data modeling.*
 
 </div>
 
