@@ -25,7 +25,7 @@
 
 ---
 
-## 🔧 A Semiparametric Effective Age Framework for Recurrent Event Data
+## 🔧 A Semiparametric Effective Age Framework for Recurrent Event Modeling
 
 <img src="banner1.svg" alt="Recurrent Event Modeling Banner" width="100%">
 
