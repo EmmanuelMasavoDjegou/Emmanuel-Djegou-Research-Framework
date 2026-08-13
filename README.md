@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🧠 Research Framework
-### Statistics for Survival Data Modeling in the Era of AI
+### Survival Data Modeling in the Era of AI
 
 ![Focus](https://img.shields.io/badge/Focus-Semiparametric%20Efficiency%20Theory-2c5364?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Deep%20Survival%20Models-0f3460?style=flat-square)
